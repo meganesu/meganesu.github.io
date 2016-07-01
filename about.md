@@ -9,7 +9,7 @@ Hi! I'm Megan. Nice to meet you!
 
 Here are some things you should know about me:
 
-* I graduated with a B.S. in computer science from the University of Southern California. (Fight on!) I had never programmed before I got to college, and I had a really tough time in my first few programming classes. But I kept working at it, and, with the help of some great professors and supportive classmates, I fell in love with computer science. ![USC Logo]({{ site.url }}/images/usc-logo.png)
+* I graduated with a B.S. in computer science from the University of Southern California. (Fight on!) I had never programmed before I got to college, and I had a really tough time in my first few programming classes. But I kept working at it, and, with the help of some great professors and supportive classmates, I fell in love with computer science. ![USC Logo]({{site.baseurl}}/images/usc-logo.png)
 
 * After college, I served as a City Year AmeriCorps member at an elementary school in the Bronx. It was a challenging, exhausting, and life-changing year. I absolutely loved it. Ubuntu!
 
