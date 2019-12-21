@@ -1,0 +1,14 @@
+.social-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links img {
+  height: 32px;
+}
+
+.social-links li {
+  margin-left: 1rem;
+}
