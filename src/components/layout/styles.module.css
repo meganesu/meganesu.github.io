@@ -11,4 +11,6 @@
 
 .main {
   height: 80vh;
+  width: 90%;
+  margin: auto;
 }
