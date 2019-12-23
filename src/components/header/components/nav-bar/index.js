@@ -6,6 +6,7 @@ import styles from './styles.module.css';
 const NavBar = () =>
   <ul className={styles.navBar}>
     <li><Link to="/about">About</Link></li>
+    <li><Link to="/projects">Projects</Link></li>
     <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/contact">Contact</Link></li>
   </ul>
