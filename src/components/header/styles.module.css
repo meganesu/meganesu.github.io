@@ -6,4 +6,6 @@
 
 .title {
   margin-right: 3rem;
+  text-decoration: none;
+  color: black;
 }
