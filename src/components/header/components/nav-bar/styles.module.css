@@ -11,4 +11,9 @@
 
 .nav-bar a {
   text-decoration: none;
+  color: black;
+}
+
+.nav-bar a:hover {
+  color: orange;
 }
