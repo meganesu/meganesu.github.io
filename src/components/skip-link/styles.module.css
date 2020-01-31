@@ -1,0 +1,12 @@
+.container {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.container:not(:focus) {
+  top: -100%;
+}
