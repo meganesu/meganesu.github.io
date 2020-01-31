@@ -15,6 +15,9 @@ const Blog = () => {
               date
             }
             excerpt(format: PLAIN)
+            fields {
+              slug
+            }
           }
         }
       }
@@ -29,7 +32,9 @@ const Blog = () => {
         {
           data.allMarkdownRemark.edges.map(edge => (
             <li className={styles.post}>
-              <h2>{ edge.node.frontmatter.title }</h2>
+              <a href={`/blog/${edge.node.fields.slug}`}>
+                <h2>{ edge.node.frontmatter.title }</h2>
+              </a>
               <p>{ edge.node.frontmatter.date }</p>
               <p>{ edge.node.excerpt }</p>
             </li>
