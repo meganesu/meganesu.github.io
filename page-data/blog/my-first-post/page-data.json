@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-blog-post-js","path":"/blog/my-first-post","result":{"data":{"markdownRemark":{"frontmatter":{"title":"My First Post","date":"December 23, 2019"},"html":"<p>In this post, I will talk about things. It will be great. 100% approval ratings.</p>"}},"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"my-first-post"}}}

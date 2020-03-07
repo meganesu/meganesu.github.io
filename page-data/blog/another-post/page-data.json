@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-blog-post-js","path":"/blog/another-post","result":{"data":{"markdownRemark":{"frontmatter":{"title":"Another Post","date":"December 24, 2019"},"html":"<p>This is another post.</p>"}},"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"another-post"}}}
