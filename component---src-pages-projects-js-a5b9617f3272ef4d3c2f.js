@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{"16l3":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),i=t("I/Ru");n.default=function(){return l.a.createElement(i.a,{pageTitle:"Projects | Megan Sullivan"},l.a.createElement("h1",null,"Projects"),l.a.createElement("p",null,"Coming soon! This is where I talk about things I've built."))}}}]);
+//# sourceMappingURL=component---src-pages-projects-js-a5b9617f3272ef4d3c2f.js.map
