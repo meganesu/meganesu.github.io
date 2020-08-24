@@ -1,0 +1,490 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.b97cbc42578d3a7b7fe1.css">code[class*=language-],pre[class*=language-]{color:#6c6c6c;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:var(--light-orange)}:not(pre)>code[class*=language-]{padding:.1em}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#007ca2}.token.punctuation{color:#586e75}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#2077b5}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string,.token.url{color:#2aa198}.token.entity{color:#6c6c6c;background:#eee8d5}.token.atrule,.token.attr-value,.token.keyword{color:#527713}.token.class-name,.token.function{color:#916d00}.token.important,.token.regex,.token.variable{color:#cb4b16}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.styles-module--container--1gqM0{position:absolute;top:0;left:50%;transform:translateX(-50%);background-color:#d3d3d3;padding:10px}.styles-module--container--1gqM0:not(:focus){top:-100%}.styles-module--nav-bar--2p5IO{display:flex;list-style-type:none;align-items:center;padding:0;-webkit-margin-before:0;margin-block-start:0;margin-bottom:2rem}.styles-module--nav-bar--2p5IO li{font-family:Ribeye Marrow,sans-serif;font-size:24px;padding:0 1.5rem}.styles-module--nav-bar--2p5IO a{text-decoration:none;color:#fff;border-bottom:none}a.styles-module--active--3oU8M{border-bottom:3px solid #5492ff}@media (min-width:1400px){.styles-module--nav-bar--2p5IO{flex-direction:column}.styles-module--nav-bar--2p5IO li{padding:.5rem 0}}.styles-module--social-links--2J9HJ{display:flex;align-items:center;list-style-type:none;padding:0;-webkit-margin-before:0;margin-block-start:0}.styles-module--social-links--2J9HJ a{border:none}.styles-module--social-links--2J9HJ li:not(:last-child){margin-right:2em}.styles-module--header--7xmbW{display:flex;flex-direction:column;justify-content:space-between;align-items:center;flex-wrap:wrap;background-color:var(--navy)}.styles-module--title--S5uNV{margin:1rem 0;text-align:center}.styles-module--title--S5uNV a{font-family:Dancing Script,sans-serif;font-size:3rem;color:#fff;border:none}.styles-module--profile-picture--3duwc{display:none}@media (min-width:1400px){.styles-module--header--7xmbW{justify-content:center;padding:0 3rem;width:20vw;height:100vh;position:-webkit-sticky;position:sticky;top:0}.styles-module--profile-picture--3duwc{display:block;border-radius:50%;max-width:10rem;border:.75rem solid var(--orange)}}.styles-module--footer--3aAW0{text-align:center}@font-face{font-family:Dancing Script;font-style:normal;font-display:swap;font-weight:400;src:local("Dancing Script Regular "),local("Dancing Script-Regular"),url(/static/dancing-script-latin-400-5c1198f377ebf0fe64dd1a42476f0309.woff2) format("woff2"),url(/static/dancing-script-latin-400-014c7f030ef0c10e1cbdd3b3e6f277ae.woff) format("woff")}@font-face{font-family:Dancing Script;font-style:normal;font-display:swap;font-weight:500;src:local("Dancing Script Medium "),local("Dancing Script-Medium"),url(/static/dancing-script-latin-500-753aff74df7a2fcfc96251b9e1a337c5.woff2) format("woff2"),url(/static/dancing-script-latin-500-c72a425d2c5930c469a33bb73d589e0d.woff) format("woff")}@font-face{font-family:Dancing Script;font-style:normal;font-display:swap;font-weight:600;src:local("Dancing Script SemiBold "),local("Dancing Script-SemiBold"),url(/static/dancing-script-latin-600-6b2d20d523abea5f27ae128cf54946b1.woff2) format("woff2"),url(/static/dancing-script-latin-600-387669f72701a2ef7ed0a4e924ef4eab.woff) format("woff")}@font-face{font-family:Dancing Script;font-style:normal;font-display:swap;font-weight:700;src:local("Dancing Script Bold "),local("Dancing Script-Bold"),url(/static/dancing-script-latin-700-9bbebf5d89c861f17ad08456b790c7b8.woff2) format("woff2"),url(/static/dancing-script-latin-700-112efea77224aaee6ab8ce9982d1440b.woff) format("woff")}@font-face{font-family:Ribeye Marrow;font-style:normal;font-display:swap;font-weight:400;src:local("Ribeye Marrow Regular "),local("Ribeye Marrow-Regular"),url(/static/ribeye-marrow-latin-400-2a539ebed98bf75a88a3eeb2b9f5d4cb.woff2) format("woff2"),url(/static/ribeye-marrow-latin-400-f7f60e440204bc5744b6e5a28de05c36.woff) format("woff")}@font-face{font-family:Quicksand;font-style:normal;font-display:swap;font-weight:300;src:local("Quicksand Light "),local("Quicksand-Light"),url(/static/quicksand-latin-300-7555adc38bfc401504f137e1e604ed84.woff2) format("woff2"),url(/static/quicksand-latin-300-9a2540cce836fdfccdf35a7184b24af8.woff) format("woff")}@font-face{font-family:Quicksand;font-style:normal;font-display:swap;font-weight:400;src:local("Quicksand Regular "),local("Quicksand-Regular"),url(/static/quicksand-latin-400-aa06b1e97f0640360f4b7355cdd0e4ab.woff2) format("woff2"),url(/static/quicksand-latin-400-89b7578bfa5a888dae676a596e423cb6.woff) format("woff")}@font-face{font-family:Quicksand;font-style:normal;font-display:swap;font-weight:500;src:local("Quicksand Medium "),local("Quicksand-Medium"),url(/static/quicksand-latin-500-71d7b62210ccadec855179ef008f507f.woff2) format("woff2"),url(/static/quicksand-latin-500-5dacfd42158e8ea0ea6ecd13ed27240e.woff) format("woff")}@font-face{font-family:Quicksand;font-style:normal;font-display:swap;font-weight:600;src:local("Quicksand SemiBold "),local("Quicksand-SemiBold"),url(/static/quicksand-latin-600-63b2ff32faf922e07008a45318493705.woff2) format("woff2"),url(/static/quicksand-latin-600-68229628ae890c4956a344b94454475f.woff) format("woff")}@font-face{font-family:Quicksand;font-style:normal;font-display:swap;font-weight:700;src:local("Quicksand Bold "),local("Quicksand-Bold"),url(/static/quicksand-latin-700-e84fd014ffd68f5d72d276fbe3ced630.woff2) format("woff2"),url(/static/quicksand-latin-700-25e58c7536f16dac306d49aa480abfa1.woff) format("woff")}:root{--navy:#0c264b;--blue:#5492ff;--light-blue:#eef6ff;--orange:#fea700;--light-orange:#fff8ea;--gray:#434343}body{margin:0;font-family:Quicksand,sans-serif;line-height:1.5}h1{font-family:Ribeye Marrow,Ubuntu,sans-serif;font-size:2.063rem}h2{font-size:1.625rem}h3{font-size:1.25rem;font-weight:400}a{color:#000;text-decoration:none;border-bottom:3px solid var(--blue)}a:focus,a:hover{border-bottom:3px solid var(--orange);transition:color .3s}strong{font-weight:700}blockquote{background-color:var(--light-blue);border-left:.5rem solid var(--blue);padding:.25rem .5rem}.styles-module--container--W8ZIn{min-height:100vh;margin:auto;display:flex;flex-direction:column}@media (min-width:1400px){.styles-module--container--W8ZIn{flex-direction:row}}.styles-module--main-wrapper--3gedb{border:.75rem solid var(--orange);box-sizing:border-box;padding:2rem;flex:1 1;display:flex;flex-direction:column}.styles-module--main--2gYGv{width:100%;max-width:50rem;margin:auto;flex:1 1}@media (min-width:1400px){.styles-module--main--2gYGv{flex:0 1}}.blog-module--post-list--2Ls6C{list-style-type:none;padding:0}.blog-module--post--35Kj9{padding:15px;margin-bottom:2rem}.blog-module--post--35Kj9:nth-child(odd){background-color:var(--light-blue);border:.5rem solid var(--blue)}.blog-module--post--35Kj9:nth-child(2n){background-color:var(--light-orange);border:.5rem solid var(--orange)}.blog-module--post--35Kj9:nth-child(2n) a{border-bottom-color:var(--orange)}.blog-module--post--35Kj9:nth-child(2n) a:focus,.blog-module--post--35Kj9:nth-child(2n) a:hover{border-bottom-color:var(--blue)}.index-module--greeting--8cgxl{font-family:Ribeye Marrow,sans-serif;font-size:3.5rem;margin:1rem 0;line-height:1.25}.index-module--wave--2HXsO{display:inline-block;height:1em;margin-right:.25em;transform-origin:80% 85%}@keyframes index-module--wave--2HXsO{0%{transform:rotate(0deg)}25%{transform:rotate(-15deg)}45%{transform:rotate(15deg)}65%{transform:rotate(-10deg)}85%{transform:rotate(5deg)}to{transform:rotate(0deg)}}.index-module--wave--2HXsO:hover{animation:index-module--wave--2HXsO 1s}.index-module--name--1vmXB{font-weight:700}.blog-post-module--title--3-2cL{text-align:center}.blog-post-module--date--3Uhz3{text-align:center;font-style:italic}</style><meta name="generator" content="Gatsby 2.24.47"/><title data-react-helmet="true">A Deep Dive on Managing Focus with React, Jest, and Enzyme | Megan Sullivan</title><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-e11f9324c5299ebd0085.js"/><link as="script" rel="preload" href="/commons-e20d8267aae3c1f94592.js"/><link as="script" rel="preload" href="/a9a7754c-c0270f7ac50fa874c58e.js"/><link as="script" rel="preload" href="/styles-c2fe8482057191dca484.js"/><link as="script" rel="preload" href="/app-5cdf2c3484fbd0d04863.js"/><link as="script" rel="preload" href="/framework-a7bb16c5c6afeed647b2.js"/><link as="script" rel="preload" href="/webpack-runtime-ab4abd85a6aceb4119bb.js"/><link as="fetch" rel="preload" href="/page-data/blog/managing-focus-with-react-and-jest/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="styles-module--container--W8ZIn"><a class="styles-module--container--1gqM0" href="#main-content">Skip to main content</a><header class="styles-module--header--7xmbW"><img src="/static/meganesulli-b18707bd4900451d6347e6f993377dd1.jpg" alt="" class="styles-module--profile-picture--3duwc"/><p class="styles-module--title--S5uNV"><a href="/">Megan Sullivan</a></p><nav><ul class="styles-module--nav-bar--2p5IO"><li><a href="/">Home</a></li><li><a href="/blog">Blog</a></li></ul></nav><ul class="styles-module--social-links--2J9HJ"><li><a href="https://github.com/meganesu" aria-label="GitHub"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16 fa-2x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" color="white"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></li><li><a href="https://twitter.com/meganesulli" aria-label="Twitter"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16 fa-2x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" color="white"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></li><li><a href="https://linkedin.com/in/meganesu" aria-label="LinkedIn"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14 fa-2x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" color="white"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></li></ul></header><div class="styles-module--main-wrapper--3gedb"><main class="styles-module--main--2gYGv" id="main-content" tabindex="-1"><h1 class="blog-post-module--title--3-2cL">A Deep Dive on Managing Focus with React, Jest, and Enzyme</h1><p class="blog-post-module--date--3Uhz3">August 23rd, 2020</p><div><h2>What You Will Learn</h2>
+<p>By the end of this article, you will be able to:</p>
+<ul>
+<li>Explain what focus management is and why it's important.</li>
+<li>Use React <code class="language-text">ref</code> to programmatically move focus between elements on a web page.</li>
+<li>Write tests using Jest and Enzyme to check focus management behavior.</li>
+</ul>
+<h2>Prerequisites</h2>
+<p>In order to get the most out of this article, you should already know the basics of how React works. The words "component," "state," and "props" should all sound familiar.</p>
+<p>If they don't, here are some resources to help you get up to speed:</p>
+<ul>
+<li>Check out Ali Spittel's post, <a href="https://dev.to/aspittel/a-complete-beginners-guide-to-react-2cl6">A Complete Beginner's Guide to React</a>.</li>
+<li>New to the <code class="language-text">useState</code> hook? Check out Christina Gorton's post, <a href="https://dev.to/coffeecraftcode/react-hooks-usestate-3hfo">React Hooks: useState</a>.</li>
+</ul>
+<h2>The Problem</h2>
+<p>Not everyone who uses a computer can use a mouse. Some users have physical disabilities and need to use keyboard navigation instead. Other users are blind or have low vision and use screen readers to consume and interact with websites. As web developers, it's our responsibility to make sure our products are accessible to all users. That means we need to make sure that our sites are <a href="https://www.w3.org/WAI/perspective-videos/keyboard/">keyboard compatible</a>. That is, a user's keyboard focus should move around the page in a way that makes sense.</p>
+<p>Let's look at an example to see what I mean. The CodePen below has some starter code for the React project we'll be working on in this post. The main content is a table that shows what color you get when you mix two other colors.</p>
+<blockquote>
+<p>This table structure is a simplified version of a project I built recently, a <a href="https://meganesu.github.io/generate-gb-opcodes">table of all the Game Boy opcodes</a>. For more background on that project, check out this article I wrote: <a href="/blog/game-boy-opcodes">Meet the Game Boy Instruction Set</a>.</p>
+</blockquote>
+<p>Each cell in the table has a button. Clicking a button does two things:</p>
+<ol>
+<li>It opens a sidebar.</li>
+<li>It updates the text in the sidebar based on which button was clicked.</li>
+</ol>
+<p>Try using your keyboard to click some of the buttons inside the table, and see what happens to your focus. You can use the Tab key to move your focus between elements, and you can press the Space or Enter keys to click the currently focused element. (Note: you might need to click on the table first to get your focus inside the actual CodePen result window.)</p>
+<iframe style="width: 100%; border: none; min-height: 400px;" title="Managing Focus in React (no focus management)" src="https://codepen.io/meganesu/embed/preview/OJVXwer?height=265&theme-id=dark&default-tab=result" loading="lazy" allowfullscreen="true" >
+  See the Pen <a href='https://codepen.io/meganesu/pen/OJVXwer'>Managing Focus in React (no focus management)</a> by Megan Sullivan
+  (<a href='https://codepen.io/meganesu'>@meganesu</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<p>See how many times you have to press Tab after clicking a button before your focus moves into the sidebar? The current experience might be feasible for a sighted user who is using a mouse to navigate the page. But keyboard or screen reader users will have to move through a frustrating number of elements before they can actually get to the updated sidebar content. This isn't ideal, especially as the number of table cells grows.</p>
+<p>In this post, you'll learn about how to programmatically manage a user's focus to create a more accessible experience. If you prefer learning by doing, you can fork the CodePen and follow along as we go.</p>
+<h2>The Requirements</h2>
+<p>Here's a more accessible user experience: When a user clicks on one of the buttons in the table, their focus should automatically move into the sidebar. Additionally, when a user clicks on the "Close sidebar" button, their focus should automatically go back to the table cell they clicked on in the first place.</p>
+<p>The <a href="https://existek.com/blog/what-are-acceptance-criteria/">acceptance criteria</a> for these two requirements might look something like this:</p>
+<ol>
+<li><strong>Given</strong> the sidebar is closed<br>
+<strong>When</strong> I click on a button in a table cell<br>
+<strong>Then</strong> the keyboard focus moves to the header inside the sidebar.</li>
+<li><strong>Given</strong> the sidebar is open<br>
+<strong>When</strong> I click on the "Close sidebar" button<br>
+<strong>Then</strong> the keyboard focus moves back to the table cell button.</li>
+</ol>
+<h2>A Closer Look at the Starter Code</h2>
+<blockquote>
+<p>"Cut to the chase, Megan. Where's the code?"</p>
+<p>If you want to jump right into implementing focus management, you can skip ahead to the next section: <a href="#react-ref">How to Move Focus in React: <code class="language-text">ref</code></a></p>
+</blockquote>
+<p>Before we start implementing focus management features, let's get familiar with the component structure of the <a href="https://codepen.io/meganesu/pen/OJVXwer">starter code</a>:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 70.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB0ElEQVQ4y31Ua4/bIBD0//9xrdQvuapWnJ6d+IU588ZgMgVyae1L0pVWSLAM3plZF3gS1+s1r1JKKK1hjMV73aAfBjjnoI3JZ/fae32K4n+ASkkEZ9IOaF9DzuOtILgMeK/bAW43t5kB4yU/N/CkRGi/I9AjPD0haAohBEJ4vFN8fWEb1igspMJy+QHTHWCHX3D9AUGRfPass79f6NcAZX1OvXgsPoBLDak0uDKgTOUUekE7cfxsKM5UoZs1aiJhlnXfso5A6bBnFpNYMDKDhmrMysOHT1pipoeEXdHOBmUn8O04oWw52g8Dptxjy4s1WH0k3TgwLuCWZUd8UtlE5enMQSiL4qicc6wVsaNiJ0bizVoMw4iyLDPxxpgdoPhUd11X1PU73t4O4IzdaPN+a5t/3kuXhIgeVCo/8NWb88zimcZEI4+XFozxfCethYzcce3QTCqSrHEaJKpeQLvwwpsqmrzOXdTNGcfqhLbt0PcDRkJQUGFB+C0p1zgPFKcLQUc+IlcKOvK15Xhv5uvDtOwmJYmRQH6fKlTVEeM4ZsAQAl75df8YNqIkhaOi1kbLkCnO7ZjbS6q+mqZnubNNUlRGkEvkJP0MEvlp79nMvoo/+atDju+L420AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="A diagram of the app component tree"
+        title="A diagram of the app component tree"
+        src="/static/3142a698d3d12e9c56ed895a5fdaae51/5a190/app-structure.png"
+        srcset="/static/3142a698d3d12e9c56ed895a5fdaae51/772e8/app-structure.png 200w,
+/static/3142a698d3d12e9c56ed895a5fdaae51/e17e5/app-structure.png 400w,
+/static/3142a698d3d12e9c56ed895a5fdaae51/5a190/app-structure.png 800w,
+/static/3142a698d3d12e9c56ed895a5fdaae51/c1b63/app-structure.png 1200w,
+/static/3142a698d3d12e9c56ed895a5fdaae51/29007/app-structure.png 1600w,
+/static/3142a698d3d12e9c56ed895a5fdaae51/a6e6b/app-structure.png 2917w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>Here's a breakdown of how all the components fit together:</p>
+<ul>
+<li>
+<p><strong>App</strong>: The top-level component, which renders the Table and Sidebar components.</p>
+<ul>
+<li>
+<p>The App component keeps track of two state variables:</p>
+<ul>
+<li><code class="language-text">showSidebar</code>: a boolean value that is <code class="language-text">true</code> when the sidebar should be open and <code class="language-text">false</code> when it should be closed. The inverse of this value is passed to the Sidebar component as the <code class="language-text">isHidden</code> prop.</li>
+<li><code class="language-text">activeCell</code>: an object corresponding to the input and output colors for the TableCell currently displayed in the Sidebar. On page load, it has an initial value of <code class="language-text">null</code>. This object is passed to the Sidebar component as the <code class="language-text">colors</code> prop.</li>
+</ul>
+</li>
+<li>
+<p>The App component also defines two functions, which get passed down to rendered components as props:</p>
+<ul>
+<li><code class="language-text">updateSidebar(colors)</code>: a function that sets App's <code class="language-text">activeCell</code> state variable to the object passed in as <code class="language-text">colors</code>. It also sets App's <code class="language-text">showSidebar</code> state variable to <code class="language-text">true</code>. This function gets passed to the Table component as a prop.</li>
+<li><code class="language-text">hideSidebar()</code>: a function that sets the value of <code class="language-text">showSidebar</code> in the App state to <code class="language-text">false</code>. It gets passed to the Sidebar component as a prop.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Table</strong>: Renders the HTML <code class="language-text">table</code> element and all of the TableCell components.</p>
+<ul>
+<li>The Table component receives the <code class="language-text">updateSidebar</code> function as a prop from App and passes it down to the TableCell components.</li>
+<li>The Table component also sets the <code class="language-text">colors</code> object for each TableCell. (Since this is a contrived example, the configuration is hard-coded for each TableCell.)</li>
+</ul>
+</li>
+<li>
+<p><strong>Sidebar</strong>: Renders additional details about the currently selected TableCell.</p>
+<ul>
+<li>This component renders an <code class="language-text">h1</code> element for the title of the sidebar, a <code class="language-text">button</code> element for closing the sidebar, and a <code class="language-text">p</code> element with the <code class="language-text">colors</code> details for the TableCell that was clicked.</li>
+<li>When the <code class="language-text">isHidden</code> prop from App is <code class="language-text">true</code>, the Sidebar renders with an additional class that hides the Sidebar by moving it offscreen. When <code class="language-text">isHidden</code> is false, the class is removed, and the Sidebar becomes visible.</li>
+</ul>
+</li>
+<li>
+<p><strong>TableCell</strong>: Renders the <code class="language-text">td</code> element for an individual cell.</p>
+<ul>
+<li>Inside the <code class="language-text">td</code> element, there is a <code class="language-text">button</code> element. When this button is clicked, the click event handler calls the <code class="language-text">updateSidebar</code> function from props and passes it the <code class="language-text">colors</code> prop for that cell.</li>
+</ul>
+</li>
+</ul>
+<h3>What Happens When the Sidebar Opens?</h3>
+<p>Here's a breakdown of how the data flows between components when the sidebar opens:</p>
+<ol>
+<li>The user clicks on the button in a TableCell, which triggers the button's click event handler.</li>
+<li>The event handler calls <code class="language-text">updateSidebar</code> with the value of the <code class="language-text">colors</code> prop for that TableCell.</li>
+<li>The <code class="language-text">updateSidebar</code> function - which is defined in the App component - updates the value of <code class="language-text">activeCell</code> in the App state and sets <code class="language-text">showSidebar</code> in the App state to <code class="language-text">true</code>.</li>
+<li>This state change causes a rerender of the App component, and the Sidebar component gets new prop values for <code class="language-text">colors</code> and <code class="language-text">isHidden</code>.</li>
+<li>Since <code class="language-text">isHidden</code> is now <code class="language-text">false</code> (the opposite of <code class="language-text">showSidebar</code>), the Sidebar component renders without the "hidden" class, and the Sidebar becomes visible to the user.</li>
+</ol>
+<h3>What Happens When the Sidebar Closes?</h3>
+<p>Here's a breakdown of how the data flows between components when the sidebar closes.</p>
+<ol>
+<li>The user clicks on the "Close sidebar" button in the Sidebar, which triggers the button's click event handler.</li>
+<li>The event handler calls the <code class="language-text">hideSidebar</code> function that was passed into the Sidebar as a prop.</li>
+<li>The <code class="language-text">hideSidebar</code> function - which is defined in the App component - sets <code class="language-text">showSidebar</code> in the App state to <code class="language-text">false</code>.</li>
+<li>This state change causes a rerender of the App component, and the Sidebar component gets a new prop value for <code class="language-text">isHidden</code>.</li>
+<li>Since <code class="language-text">isHidden</code> is now <code class="language-text">true</code> (the opposite of <code class="language-text">showSidebar</code>), the Sidebar component renders with the "hidden" class, and the Sidebar slides off the page and out of sight.</li>
+</ol>
+<h2 id="react-ref">How to Move Focus in React: <code class="language-text">ref</code></h2>
+<p>Now that we know how our starter code works and what we want it to do, we can start implementing our focus management requirements. But how do you move focus in a React app? Enter <code class="language-text">ref</code>.</p>
+<p>What is a <code class="language-text">ref</code>? It's short for "reference." It's a way to refer directly to an element in the DOM.</p>
+<p>Normally, in React, information only flows through components in one direction: a parent component passes data down to its children as props. But sometimes, you'll need one component (like the TableCell in our example) to be able to talk to another component in a totally different part of the DOM tree (like the Sidebar). <code class="language-text">ref</code> is React's way of letting you do that.</p>
+<blockquote>
+<p><strong>Don't overuse <code class="language-text">ref</code>!</strong></p>
+<p>Just because you can use <code class="language-text">ref</code> to get around the normal React data flow doesn't mean you should use it for everything. The React team identified <a href="https://reactjs.org/docs/refs-and-the-dom.html#when-to-use-refs">specific use cases where <code class="language-text">ref</code> comes in handy</a> (like managing focus for accessibility). If your situation doesn't fall under one of those use cases, think carefully about whether there's another way to achieve your goal without using <code class="language-text">ref</code>.</p>
+</blockquote>
+<p>The process for using <code class="language-text">ref</code> looks like this:</p>
+<ol>
+<li>Create a new <code class="language-text">ref</code> object.</li>
+<li>Assign that <code class="language-text">ref</code> object to an element in the <code class="language-text">render</code> function of a component.</li>
+</ol>
+<p>Let's take a closer look at each of those steps.</p>
+<h3>Step 1: Create a new <code class="language-text">ref</code> object</h3>
+<p>If you're using functional components, you can create a new <code class="language-text">ref</code> object using the <code class="language-text">useRef</code> hook:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token function">useRef</span><span class="token punctuation">(</span>initialValue<span class="token punctuation">)</span></code></pre></div>
+<p>Usually, you'll just pass in an initial value of <code class="language-text">null</code>:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> myRef <span class="token operator">=</span> <span class="token function">useRef</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span></code></pre></div>
+<blockquote>
+<p>If you're using class components, the syntax looks a little different. You can refer to the <a href="https://reactjs.org/docs/refs-and-the-dom.html">official React docs about <code class="language-text">ref</code></a> for the details.</p>
+</blockquote>
+<p>Now you have a variable for the <code class="language-text">ref</code> you created, which you can pass down to child components via props. (We'll take a closer look at how to do that when we start implementing focus management in the next section.)</p>
+<p>But what's actually in that <code class="language-text">ref</code> object? If you log the <code class="language-text">myRef</code> variable to the console, you'll see that it contains an object with a single property called <code class="language-text">current</code>:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">Object <span class="token punctuation">{</span> current<span class="token operator">:</span> <span class="token keyword">null</span> <span class="token punctuation">}</span></code></pre></div>
+<p>The <code class="language-text">current</code> property is what keeps track of the node this <code class="language-text">ref</code> is assigned to. To start, it'll be set to whatever you passed in as <code class="language-text">initialValue</code>. The value of the <code class="language-text">current</code> property will change when you assign the <code class="language-text">ref</code> to an element. Which leads us to...</p>
+<h3>Step 2: Assign the <code class="language-text">ref</code> to an element</h3>
+<p>First, decide which DOM element you want to connect to your <code class="language-text">ref</code>. In our case, this is going to be the element we want focused.</p>
+<p>Then, find the place where that element is rendered. Add a <code class="language-text">ref</code> attribute to the element, and set it to the variable you created in step 1.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">return</span> <span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>button ref<span class="token operator">=</span><span class="token punctuation">{</span>myRef<span class="token punctuation">}</span><span class="token operator">></span> <span class="token comment">// add the ref attribute</span>
+    Click me<span class="token operator">!</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+<span class="token punctuation">)</span></code></pre></div>
+<p>Once that component mounts, React will update <code class="language-text">myRef.current</code> to be the DOM element you assigned <code class="language-text">myRef</code> to:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">Object <span class="token punctuation">{</span> current<span class="token operator">:</span> button <span class="token punctuation">}</span></code></pre></div>
+<blockquote>
+<p>Now that <code class="language-text">myRef.current</code> is a focusable <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement">HTMLElement</a>, you can call its <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus"><code class="language-text">focus</code> method</a>, which will automatically move keyboard focus to that element.</p>
+</blockquote>
+<h2>The Solution</h2>
+<p>Now that we've got a basic understanding of how <code class="language-text">ref</code> works, let's see how to use it within the context of our original problem: programmatically moving the user's focus.</p>
+<h3>Part 1: Move Focus When the Sidebar Opens</h3>
+<p>Let's start with a quick recap of the first acceptance criterion:</p>
+<p><strong>Given</strong> the sidebar is closed <br>
+<strong>When</strong> I click on a button in a table cell <br>
+<strong>Then</strong> the keyboard focus moves to the header inside the sidebar.</p>
+<p>Before we get too deep into the code, let's take a step back and think about the high-level overview of what we need to do:</p>
+<ul>
+<li>Create a new <code class="language-text">ref</code> for the sidebar. Let's call it <code class="language-text">sidebarRef</code>. (So creative!)</li>
+<li>Attach it to the <code class="language-text">h1</code> element in the Sidebar component.</li>
+<li>Call <code class="language-text">sidebarRef.current.focus()</code> when the TableCell button is clicked.</li>
+</ul>
+<p>With that big picture in mind, let's get into the code to implement this:</p>
+<ol>
+<li>
+<p>Start by adding <code class="language-text">useRef</code> to the list of methods imported from React.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> Fragment<span class="token punctuation">,</span> useState<span class="token punctuation">,</span> useRef <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span></code></pre></div>
+<blockquote>
+<p>In CodePen, this import looks a little different:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token punctuation">{</span> Fragment<span class="token punctuation">,</span> useState<span class="token punctuation">,</span> useRef <span class="token punctuation">}</span> <span class="token operator">=</span> React<span class="token punctuation">;</span></code></pre></div>
+</blockquote>
+</li>
+<li>
+<p>Create <code class="language-text">sidebarRef</code>. Which component should we create it in? We know that we eventually want to attach it to the <code class="language-text">h1</code> in the Sidebar component. We also need to be able to call <code class="language-text">sidebarRef.current.focus()</code> when the TableCell is clicked. Since the App component is a parent of Sidebar, and it's where <code class="language-text">updateSidebar</code> (the function called from the TableCell click handler) is defined, let's create <code class="language-text">sidebarRef</code> inside the App component.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>showSidebar<span class="token punctuation">,</span> setShowSidebar<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>activeCell<span class="token punctuation">,</span> setActiveCell<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> sidebarRef <span class="token operator">=</span> <span class="token function">useRef</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add this</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>Now we can pass <code class="language-text">sidebarRef</code> down to the Sidebar component as a prop.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token comment">// ...</span>
+    <span class="token operator">&lt;</span>Sidebar
+      colors<span class="token operator">=</span><span class="token punctuation">{</span>activeCell<span class="token punctuation">}</span>
+      hideSidebar<span class="token operator">=</span><span class="token punctuation">{</span>hideSidebar<span class="token punctuation">}</span>
+      isHidden<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">!</span>showSidebar<span class="token punctuation">}</span>
+      sidebarRef<span class="token operator">=</span><span class="token punctuation">{</span>sidebarRef<span class="token punctuation">}</span> <span class="token comment">// add this</span>
+    <span class="token operator">/</span><span class="token operator">></span>
+    <span class="token comment">// ...</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>In Sidebar, add a <code class="language-text">ref</code> attribute to the element we want to focus on when the sidebar opens (i.e., the <code class="language-text">h1</code> header). Set the value to the new <code class="language-text">sidebarRef</code> prop. Since headers aren't focusable elements by default, we'll also need to add the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex"><code class="language-text">tabIndex</code> attribute</a> to make the <code class="language-text">h1</code> focusable. Give it a value of <code class="language-text">-1</code>. (That way, users won't be able to focus on the header when they're tabbing sequentially through the page, but we'll still be able to programmatically move focus to it.)</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> Sidebar <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  colors<span class="token punctuation">,</span>
+  hideSidebar<span class="token punctuation">,</span>
+  isHidden<span class="token punctuation">,</span>
+  sidebarRef <span class="token comment">// add this</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">return</span><span class="token punctuation">(</span>
+    <span class="token comment">// ...</span>
+    <span class="token operator">&lt;</span>h1
+      ref<span class="token operator">=</span><span class="token punctuation">{</span>sidebarRef<span class="token punctuation">}</span> <span class="token comment">// add this</span>
+      tabIndex<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">}</span> <span class="token comment">// add this</span>
+    <span class="token operator">></span>
+      <span class="token punctuation">{</span>colors<span class="token punctuation">.</span>output<span class="token punctuation">}</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">></span>
+    <span class="token comment">// ...</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>Finally, go back to the <code class="language-text">updateSidebar</code> function in the App component. Add a step to move focus to the element assigned to <code class="language-text">sidebarRef</code>.</p>
+<blockquote>
+<p>Since <code class="language-text">sidebarRef</code> is defined inside of App, you can access it inside of <code class="language-text">updateSidebar</code>.</p>
+</blockquote>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">updateSidebar</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">colors</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token function">setActiveCell</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">setShowSidebar</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    sidebarRef<span class="token punctuation">.</span>current<span class="token punctuation">.</span><span class="token function">focus</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add this</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+</ol>
+<p>Now, the most important part of adding accessibilty features: manual testing! When you view the project in a browser, you should be able to click (or press enter) on a button in the table and see your focus automatically move to the header in the sidebar! Try it out with a keyboard, then <a href="https://webaim.org/articles/screenreader_testing/">test it with a screen reader</a>.</p>
+<p>Here's <a href="https://codepen.io/meganesu/pen/jOPMbGX">another CodePen</a> with all the changes we've made so far:</p>
+<iframe style="width: 100%; border: none; min-height: 400px;" title="Managing Focus in React (move focus on sidebar open only)" src="https://codepen.io/meganesu/embed/preview/jOPMbGX?height=265&theme-id=dark&default-tab=result" loading="lazy" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/meganesu/pen/jOPMbGX'>Managing Focus in React (move focus on sidebar open only)</a> by Megan Sullivan
+  (<a href='https://codepen.io/meganesu'>@meganesu</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<blockquote>
+<p><strong>Note:</strong> For this focus management solution to work correctly, you need the sidebar to always be rendered in the DOM.</p>
+<p>When I initially built this project, I used <a href="https://reactjs.org/docs/conditional-rendering.html">conditional rendering</a> to only add the Sidebar component to the DOM if it was visible on the screen. But this caused problems with the focus management behavior.</p>
+<p>The first time I clicked a TableCell button, the sidebar would open, but the keyboard focus wouldn't move. It turns out, this was because the Sidebar component wasn't mounted yet, which meant that <code class="language-text">sidebarRef.current</code> wasn't assigned to anything. To get the focus to move into the sidebar, I had to click the TableCell button twice: once to open the sidebar and mount the component, and once to actually move focus once the component was mounted. Not ideal.</p>
+</blockquote>
+<h3>Part 2: Move Focus When the Sidebar Closes</h3>
+<p>You're halfway done! Hang in there, you're doing great.</p>
+<p>Let's take another look at our second acceptance criterion:</p>
+<p><strong>Given</strong> the sidebar is open<br>
+<strong>When</strong> I click on the "Close sidebar" button<br>
+<strong>Then</strong> the keyboard focus moves back to the table cell button.</p>
+<p>Like last time, let's take a step back and lay out a high-level overview of what we need to do:</p>
+<ul>
+<li>Create a new <code class="language-text">ref</code> for the TableCell button. Let's call it <code class="language-text">buttonRef</code>. (Another creative name.)</li>
+<li>Attach it to the <code class="language-text">button</code> element in the TableCell component.</li>
+<li>Update the TableCell button click handler to keep track of the last <code class="language-text">buttonRef</code> clicked. We'll use a new React state variable for this. Let's call it <code class="language-text">lastCellClicked</code>.</li>
+<li>Call <code class="language-text">lastCellClicked.current.focus()</code> when the "Close sidebar" button is clicked.</li>
+</ul>
+<p>Now let's implement this in code:</p>
+<ol>
+<li>
+<p>Create <code class="language-text">buttonRef</code>. Which component should we create it in? Since we want to have a separate <code class="language-text">ref</code> object for each TableCell, let's define <code class="language-text">buttonRef</code> in the TableCell component. That way, each TableCell that mounts will have its own unique <code class="language-text">ref</code> that can be focused independently.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">TableCell</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> colors<span class="token punctuation">,</span> updateSidebar <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> buttonRef <span class="token operator">=</span> <span class="token function">useRef</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add this</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>Now attach <code class="language-text">buttonRef</code> to the <code class="language-text">button</code> element in the TableCell component.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">TableCell</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> colors<span class="token punctuation">,</span> updateSidebar <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>td<span class="token operator">></span>
+      <span class="token operator">&lt;</span>button
+        onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token function">updateSidebar</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">}</span>
+        ref<span class="token operator">=</span><span class="token punctuation">{</span>buttonRef<span class="token punctuation">}</span> <span class="token comment">// add this</span>
+      <span class="token operator">></span>
+        <span class="token punctuation">{</span> colors<span class="token punctuation">.</span>output <span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>td<span class="token operator">></span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>Pass <code class="language-text">buttonRef</code> as an additional argument to <code class="language-text">updateSidebar</code> when it's called in the TableCell <code class="language-text">button</code> click handler. (We'll get to <code class="language-text">updateSidebar</code> in a moment.)</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">TableCell</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> colors<span class="token punctuation">,</span> updateSidebar <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token comment">// ...</span>
+    <span class="token operator">&lt;</span>button
+      onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token function">updateSidebar</span><span class="token punctuation">(</span>colors<span class="token punctuation">,</span> buttonRef<span class="token punctuation">)</span><span class="token punctuation">}</span> <span class="token comment">// add buttonRef</span>
+      ref<span class="token operator">=</span><span class="token punctuation">{</span>buttonRef<span class="token punctuation">}</span>
+    <span class="token operator">></span>
+    <span class="token comment">// ...</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>Create a new state variable to keep track of the last cell clicked. Where should this state variable be created? We know we'll want to update it when <code class="language-text">updateSidebar</code> is called. Since <code class="language-text">updateSidebar</code> is defined in the App component, let's create the new state variable there as well. We can use an initial value of <code class="language-text">null</code>, since when the App first mounts none of the TableCells have been clicked yet.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>showSidebar<span class="token punctuation">,</span> setShowSidebar<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>activeCell<span class="token punctuation">,</span> setActiveCell<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>lastCellClicked<span class="token punctuation">,</span> setLastCellClicked<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add this</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>Now it's time to change <code class="language-text">updateSidebar</code>. First, we can add the new <code class="language-text">buttonRef</code> parameter. Then, we can set <code class="language-text">lastCellClicked</code> to the <code class="language-text">buttonRef</code> that's passed in.</p>
+<blockquote>
+<p>To summarize, this means that when a user clicks on a TableCell button and <code class="language-text">updateSidebar</code> is called, <code class="language-text">lastCellClicked</code> will be updated with the <code class="language-text">ref</code> for the TableCell button that was clicked.</p>
+</blockquote>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">updateSidebar</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">colors<span class="token punctuation">,</span> buttonRef</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span> <span class="token comment">// add buttonRef parameter</span>
+    <span class="token function">setLastCellClicked</span><span class="token punctuation">(</span>buttonRef<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add this</span>
+    <span class="token function">setActiveCell</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">setShowSidebar</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    sidebarRef<span class="token punctuation">.</span>current<span class="token punctuation">.</span><span class="token function">focus</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>Now that we have a way to determine the most recently clicked TableCell, we can update <code class="language-text">hideSidebar</code> to move focus back to that TableCell button when the "Close sidebar" button is clicked.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">hideSidebar</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token function">setShowSidebar</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    lastCellClicked<span class="token punctuation">.</span>current<span class="token punctuation">.</span><span class="token function">focus</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add this</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+</ol>
+<p>And that should do it! Don't forget to manually test your changes to make sure it's working as expected. Now, when you view the project in a browser, your focus should move into the sidebar when you click a TableCell button, and it should move back to that TableCell button when you close the sidebar. Try it out with a keyboard and with a screen reader. So much nicer than the initial experience!</p>
+<p>Here's <a href="https://codepen.io/meganesu/pen/abOmwbg">the final CodePen</a>, with all our focus management changes:</p>
+<iframe style="width: 100%; border: none; min-height: 400px;" title="Managing Focus in React (move focus on sidebar open and close)" src="https://codepen.io/meganesu/embed/preview/abOmwbg?height=265&theme-id=dark&default-tab=result" loading="lazy" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/meganesu/pen/abOmwbg'>Managing Focus in React (move focus on sidebar open and close)</a> by Megan Sullivan
+  (<a href='https://codepen.io/meganesu'>@meganesu</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<h2>Writing Tests</h2>
+<p>As with any new functionality, it's a good idea to write tests along the way, so that you can be sure that things work (and continue to work) as you expect them to.</p>
+<p>One tip to keep in mind: you should test the side effects of your application, not the implementation. Instead of checking that a particular function was called, think about what behavior your end user expects and check that.</p>
+<blockquote>
+<p><strong>Do yourself a favor!</strong> </p>
+<p>If your tests are too closely tied to the exact implementation of your app, they become brittle. For example, imagine Future You decides to change the way you implemented a feature, without affecting the end result. You'll probably also end up needing to change your tests, even though your end users see the same behavior.</p>
+<p>On the other hand, if your tests are checking for side effects - things you expect your code to have done by the time it finishes running - they'll be more flexible and less likely to fail due to refactoring.</p>
+</blockquote>
+<p>Let's take one last look at our acceptance criteria:</p>
+<ol>
+<li><strong>Given</strong> the sidebar is closed<br>
+<strong>When</strong> I click on a button in a table cell<br>
+<strong>Then</strong> the keyboard focus moves to the header inside the sidebar.</li>
+<li><strong>Given</strong> the sidebar is open<br>
+<strong>When</strong> I click on the "Close sidebar" button<br>
+<strong>Then</strong> the keyboard focus moves back to the table cell button.</li>
+</ol>
+<p>Both of these test scenarios have a similar structure:</p>
+<ul>
+<li>Interact with an element on the page.</li>
+<li>Check that the correct element has focus at the end of the interaction.</li>
+</ul>
+<h3>Using Jest v24.9.0</h3>
+<p>When I first wrote these tests, I was using an older version of Jest, v24.9.0. Here's what the initial tests looked like:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> component <span class="token operator">=</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'when a TableCell is clicked'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> firstTableCellButton<span class="token punctuation">;</span>
+
+  <span class="token function">beforeAll</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> firstTableCell <span class="token operator">=</span> component<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'TableCell'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    firstTableCellButton <span class="token operator">=</span> firstTableCell<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'button'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    firstTableCellButton<span class="token punctuation">.</span><span class="token function">simulate</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">'moves focus to the header in the Sidebar'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> sidebarHeader <span class="token operator">=</span> component<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'Sidebar h1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span>activeElement<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>sidebarHeader<span class="token punctuation">.</span><span class="token function">getDOMNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'when close sidebar button is clicked'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token function">beforeAll</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+      component<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'Sidebar button'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">simulate</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">'moves focus back to the last TableCell clicked'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+      <span class="token function">expect</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span>activeElement<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>firstTableCellButton<span class="token punctuation">.</span><span class="token function">getDOMNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>A few notes that might be helpful:</p>
+<ul>
+<li>
+<p><a href="https://enzymejs.github.io/enzyme/docs/api/ReactWrapper/getDOMNode.html"><code class="language-text">getDOMNode()</code></a> comes from Enzyme. It returns the DOM node for an Enzyme wrapper.</p>
+<ul>
+<li>For example, <code class="language-text">component.find(&#39;Sidebar h1&#39;)</code> returns an Enzyme wrapper for the <code class="language-text">h1</code> element in the Sidebar. Calling <code class="language-text">component.find(&#39;Sidebar h1&#39;).getDOMNode()</code> returns the actual DOM element for the <code class="language-text">h1</code>.</li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/activeElement"><code class="language-text">document.activeElement</code></a> is a property that returns the DOM element that currently has focus. In our tests, this property comes from <a href="https://github.com/jsdom/jsdom">JSDOM</a>, another library that's a dependency of Jest.</li>
+</ul>
+<h3>Using Jest v25+</h3>
+<p>The update from Jest v24 to v25 includes a big jump in JSDOM versions (v11.5.1 to v15.1.1), which you can see in the <a href="https://github.com/facebook/jest/blob/master/CHANGELOG.md#chore--maintenance-5">Jest changelog</a>. For me, when I upgraded my Jest dependency to the latest version (at the time, v25.2.7), my focus management tests broke.</p>
+<p>From what I was able to trace down, this problem was because JSDOM changed the way they treated <code class="language-text">document.activeElement</code>. (To be completely honest, I couldn't figure out what specifically the change was, and I got tired of digging through codebases. If you have more information on what happened, please reach out and let me know!)</p>
+<p>By combing through linked pull requests (PRs), I found this fix from a <a href="https://github.com/carbon-design-system/carbon/pull/5456/files">PR in the Carbon Design System repo</a>. Here's what my updated tests looked like after following that pull request:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> container <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+container<span class="token punctuation">.</span>id <span class="token operator">=</span> <span class="token string">'container'</span><span class="token punctuation">;</span>
+document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>container<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> component <span class="token operator">=</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  attachTo<span class="token operator">:</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'#container'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'when a TableCell is clicked'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>To fix the tests, I had to create a fake DOM element and then explicitly mount the App component onto that element. The content of the tests themselves didn't change.</p>
+<h2>Next Steps</h2>
+<p>Congratulations, you made it to the end! 🥳</p>
+<p>In this post, you learned about how to programmatically move a user's focus when opening and closing a sidebar. But there are still more ways to improve the accessibility of this design!</p>
+<p>The next improvement I'm hoping to make is trapping focus inside the sidebar when it's open. That is, when users have the sidebar open and they repeatedly hit the Tab key, their focus should stay inside of the sidebar and not end up back in the rest of the body of the page. I'm planning on using something like the inert polyfill described in this <a href="https://www.youtube.com/watch?v=fGLp_gfMMGU">A11ycasts YouTube Video: Inert Polyfill</a>.</p>
+<p>Until then, <a href="https://twitter.com/meganesulli">reach out to me on Twitter</a> and let me know what you think about this post! I'm by no means an accessibility expert, and I'm always looking for new things to learn. What other opportunities do you see for accessibility improvements, in this project or in general?</p>
+<h2>Resources</h2>
+<p>The diagrams in this post were created using <a href="https://excalidraw.com/">Excalidraw</a>.</p>
+<h3>Accessibility</h3>
+<ul>
+<li><a href="https://www.w3.org/WAI/perspective-videos/keyboard/">W3C WAI overview on keyboard compatibility</a></li>
+</ul>
+<h3>React Documentation</h3>
+<ul>
+<li><a href="https://reactjs.org/docs/refs-and-the-dom.html">React <code class="language-text">ref</code> documentation</a></li>
+<li><a href="https://reactjs.org/docs/hooks-reference.html#useref">React <code class="language-text">useRef</code> hook documentation</a></li>
+<li><a href="https://reactjs.org/docs/accessibility.html#focus-control">React accessibility documentation about focus control</a></li>
+</ul>
+<h3>Troubleshooting Jest Upgrade</h3>
+<ul>
+<li>
+<p><a href="https://github.com/facebook/jest/blob/master/CHANGELOG.md#2510">Jest Changelog for v25.1.0</a></p>
+<ul>
+<li><a href="https://github.com/facebook/jest/pull/8851">Jest PR to update JSDOM</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/jsdom/jsdom/blob/master/Changelog.md">JSDOM Changelog</a></li>
+<li><a href="https://github.com/jsdom/jsdom/issues/2723">JSDOM Issue #2723: <code class="language-text">document.activeElement</code> not working in 15.2.1</a></li>
+<li><a href="https://github.com/jsdom/jsdom/issues/2586">JSDOM Issue #2586: <code class="language-text">Element.focus()</code> does not set active element on document object</a></li>
+<li><a href="https://github.com/carbon-design-system/carbon/pull/5456/files">Carbon Design System PR with test changes to work around JSDOM problem</a></li>
+</ul>
+<h3>Future Improvements</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=fGLp_gfMMGU">A11ycasts #02: Inert Polyfill</a></li>
+</ul></div></main><footer class="styles-module--footer--3aAW0"><p>Made by Megan Sullivan © 2019 - 2020</p><p><a href="/privacy">Privacy Policy</a></p></footer></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  function gaOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/',window[disableStr]=!0}var gaProperty='UA-159656850-1',disableStr='ga-disable-'+gaProperty;document.cookie.indexOf(disableStr+'=true')>-1&&(window[disableStr]=!0);
+  if(!(parseInt(navigator.doNotTrack) === 1 || parseInt(window.doNotTrack) === 1 || parseInt(navigator.msDoNotTrack) === 1 || navigator.doNotTrack === "yes")) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-159656850-1', 'auto', {});
+      ga('set', 'anonymizeIp', true);
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/managing-focus-with-react-and-jest";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-b0a644f56da2fcb271c9.js"],"app":["/app-5cdf2c3484fbd0d04863.js"],"component---src-pages-blog-js":["/component---src-pages-blog-js-27492ce2d5e779b6b733.js"],"component---src-pages-index-js":["/component---src-pages-index-js-13eaf44cf5e550a0a5fc.js"],"component---src-pages-privacy-js":["/component---src-pages-privacy-js-a3362d118c7ae9ccc3c2.js"],"component---src-pages-projects-js":["/component---src-pages-projects-js-a5b9617f3272ef4d3c2f.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-e11f9324c5299ebd0085.js"]};/*]]>*/</script><script src="/polyfill-b0a644f56da2fcb271c9.js" nomodule=""></script><script src="/webpack-runtime-ab4abd85a6aceb4119bb.js" async=""></script><script src="/framework-a7bb16c5c6afeed647b2.js" async=""></script><script src="/app-5cdf2c3484fbd0d04863.js" async=""></script><script src="/styles-c2fe8482057191dca484.js" async=""></script><script src="/a9a7754c-c0270f7ac50fa874c58e.js" async=""></script><script src="/commons-e20d8267aae3c1f94592.js" async=""></script><script src="/component---src-templates-blog-post-js-e11f9324c5299ebd0085.js" async=""></script></body></html>
