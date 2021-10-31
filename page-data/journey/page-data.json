@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-journey-mdx","path":"/journey/","result":{"pageContext":{"frontmatter":{"title":"How I Got Here | Megan Sullivan","description":"A quick recap of my career thus far, including how I learned to program and how I found my way into the tech industry."}}},"staticQueryHashes":["2155332721"]}
+{
+    "componentChunkName": "component---src-pages-journey-mdx",
+    "path": "/journey/",
+    "result": {"pageContext":{"frontmatter":{"title":"How I Got Here | Megan Sullivan","description":"A quick recap of my career thus far, including how I learned to program and how I found my way into the tech industry."}}},
+    "staticQueryHashes": ["2155332721"]}

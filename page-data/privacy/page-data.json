@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-privacy-mdx","path":"/privacy/","result":{"pageContext":{"frontmatter":{"title":"Privacy | Megan Sullivan","description":"An overview of how I'm collecting and using user data for this site"}}},"staticQueryHashes":["2155332721"]}
+{
+    "componentChunkName": "component---src-pages-privacy-mdx",
+    "path": "/privacy/",
+    "result": {"pageContext":{"frontmatter":{"title":"Privacy | Megan Sullivan","description":"An overview of how I'm collecting and using user data for this site"}}},
+    "staticQueryHashes": ["2155332721"]}
