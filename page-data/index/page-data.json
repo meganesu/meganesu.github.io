@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-index-mdx",
-    "path": "/",
-    "result": {"pageContext":{"frontmatter":{"title":"Home | Megan Sullivan","description":"Megan Sullivan is a software developer and educator who is passionate about helping people use tech for good."}}},
-    "staticQueryHashes": ["2155332721"]}
+{"componentChunkName":"component---src-pages-index-mdx","path":"/","result":{"pageContext":{"frontmatter":{"title":"Home | Megan Sullivan","description":"Megan Sullivan is a software developer and educator who is passionate about helping people use tech for good."}}},"staticQueryHashes":["2155332721"]}

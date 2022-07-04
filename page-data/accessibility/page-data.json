@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-accessibility-mdx",
-    "path": "/accessibility/",
-    "result": {"pageContext":{"frontmatter":{"title":"Accessibility | Megan Sullivan","description":"I'm dedicated to creating accessible content that is usable by everyone. This accessibility statement summarizes the accessibility standards I'm holding myself to."}}},
-    "staticQueryHashes": ["2155332721"]}
+{"componentChunkName":"component---src-pages-accessibility-mdx","path":"/accessibility/","result":{"pageContext":{"frontmatter":{"title":"Accessibility | Megan Sullivan","description":"I'm dedicated to creating accessible content that is usable by everyone. This accessibility statement summarizes the accessibility standards I'm holding myself to."}}},"staticQueryHashes":["2155332721"]}
